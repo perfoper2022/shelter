@@ -270,11 +270,90 @@ body {
 
 .donation__content {
   display: flex;
-  align-items: center;
   justify-content: center;
   gap: 30px;
+  background: #f6f6f6;
 }
 
 .text__italic {
   width: 380px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: #b2b2b2;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  font-style: italic;
+}
+
+.header__donation {
+  font-size: 3.5rem;
+  line-height: 4.5rem;
+  font-weight: 400;
+  margin-bottom: -15px;
+  color: #545454;
+}
+
+.header__bank {
+  color: #545454;
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+}
+.content__donation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 80px 0px 100px 0px;
+}
+
+.credit__card {
+  display: flex;
+  flex-direction: row;
+  background: #f1cdb3;
+  width: 350px;
+  height: 40px;
+  margin-top: -10px;
+}
+
+.img__card {
+  margin: 10px 15px;
+}
+.card__numbers {
+  font-size: 2rem;
+  line-height: 2.3rem;
+  font-weight: 400;
+  margin: 10px;
+  color: #545454;
+}
+
+.image__donation {
+  margin: 91px 0px 110px 0px;
+}
+
+.footer__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: url("images/footer-gradient-background.svg");
+  color: #f1cdb3;
+  align-items: center;
+}
+
+.heading__footer {
+  color: white;
+  font-size: 3.5rem;
+  line-height: 4.5rem;
+  font-weight: 400;
+}
+
+.wrapper__footer {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+  font-size: 2rem;
+  align-items: center;
+}
+
+.image__footer {
+  align-self: end;
 }
