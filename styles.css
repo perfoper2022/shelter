@@ -10,7 +10,6 @@ body {
 }
 .wrapper {
   margin: auto;
-  width: 1200px;
 }
 
 .header__wrapper {
@@ -46,25 +45,31 @@ body {
 .button {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 400;
-  font-size: 1.7 rem;
-  line-height: 22.1 px;
+  font-size: 1.7rem;
+  line-height: 22.1px;
   padding: 15px 45px 15px 45px;
-  background: #f1cdb3;
+  background: white;
   border-radius: 100px;
   border: none;
   color: #292929;
   transition: all 0.3s;
+  border: 2px solid #f1cdb3;
+}
+
+.button_colored {
+  background: #f1cdb3;
 }
 
 .start__wrapper {
   display: flex;
   justify-content: space-between;
   padding-top: 90px;
+  width: 1200px;
 }
 
 .content__start {
   width: 400px;
-  margin: auto;
+  margin: auto 0px;
 }
 
 .heading__start {
@@ -110,26 +115,166 @@ body {
 .wrapper__about {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 80px 0px 100px 0px;
+  border: 1px solid black;
 }
 
 .content__about {
   width: 430px;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 35px;
+  margin-bottom: 114px;
 }
 
 .paragraph__about {
   font-size: 1.5rem;
   line-height: 2.4rem;
   color: #4c4c4c;
+  margin-bottom: -27px;
+  width: 430px;
 }
 
 .heading__about {
+  width: 370px;
+  height: 90px;
   font-size: 3.5rem;
   line-height: 4.55rem;
   color: #545454;
   font-weight: 400;
+  margin-bottom: -30px;
+}
+
+.img__about {
+  margin-top: 80px;
+  margin-bottom: 100px;
+  margin-right: -95px;
+}
+
+.header__pets {
+  text-align: center;
+  width: 400px;
+  font-size: 3.5rem;
+  font-weight: 400;
+  color: #545454;
+  padding-bottom: 30px;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fafafa;
+  border-radius: 9px;
+}
+
+.btn__primary {
+  text-align: center;
+}
+
+.name__pet {
+  font-size: 2rem;
+  color: #545454;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.button_secondary {
+  margin-bottom: 30px;
+}
+
+.button_big {
+  font-size: 1.7rem;
+  margin-top: 75px;
+  padding: 15px 45px;
+  width: 261px;
+  height: 52px;
+  color: #292929;
+  margin-bottom: 100px;
+}
+.button_arrow {
+  position: absolute;
+  top: 50%;
+  right: 95%;
+}
+
+.button_arrow_reverse {
+  position: absolute;
+  left: 95%;
+  top: 50%;
+}
+
+.wrapper__pets {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  position: relative;
+  background: #f6f6f6;
+  min-width: 1280px;
+  height: 877px;
+}
+
+.wrapper__header {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button_arr {
+  border-radius: 100px;
+  border: 2px solid #f1cdb3;
+  width: 52px;
+  height: 52px;
+  padding: 0px;
+}
+
+.wrapper__icons {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.list__icons {
+  text-align: center;
+}
+
+.icons {
+  width: 180px;
+  padding: 30px;
+
+  font-size: 2rem;
+  font-weight: 400;
+  color: #545454;
+  line-height: 2.3rem;
+}
+
+.header__icons {
+  font-size: 3.5rem;
+  line-height: 4.5rem;
+  font-weight: 400;
+  color: #545454;
+  text-align: center;
+  margin: 80px 0px 60px 0px;
+}
+
+.icons_last {
+  margin-bottom: 100px;
+}
+
+.donation__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.text__italic {
+  width: 380px;
 }
