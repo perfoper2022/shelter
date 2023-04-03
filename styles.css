@@ -1,0 +1,135 @@
+html {
+  font-size: 10px;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif, serif;
+}
+.wrapper {
+  margin: auto;
+  width: 1200px;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+  height: 60px;
+  margin: auto;
+}
+
+.navigation {
+  display: flex;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  color: #fafafa;
+}
+
+.navigation_bordered {
+  border-bottom: 1px solid #f1cdb3;
+}
+
+.navigation__link {
+  list-style: none;
+  margin-left: 35px;
+  cursor: pointer;
+}
+
+.button {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 1.7 rem;
+  line-height: 22.1 px;
+  padding: 15px 45px 15px 45px;
+  background: #f1cdb3;
+  border-radius: 100px;
+  border: none;
+  color: #292929;
+  transition: all 0.3s;
+}
+
+.start__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 90px;
+}
+
+.content__start {
+  width: 400px;
+  margin: auto;
+}
+
+.heading__start {
+  width: 310px;
+  font-size: 4.4rem;
+  line-height: 5.72rem;
+
+  font-weight: 400;
+  color: #ffffff;
+}
+.paragraph__start {
+  color: #cdcdcd;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  margin: 42px 42px 42px 0;
+  width: 460px;
+}
+.logo__title {
+  font-size: 3.2rem;
+  line-height: 3.52rem;
+  color: #f1cdb3;
+}
+
+.logo__subtitle {
+  font-size: 1.3rem;
+  line-height: 1.495rem;
+  color: #ffffff;
+  font-family: Arial, "Times New Roman", Times, serif;
+}
+
+.header {
+  background-image: url("images/start-screen-gradient-background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.start__screen {
+  background-image: url("images/start-screen-gradient-background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wrapper__about {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 80px 0px 100px 0px;
+}
+
+.content__about {
+  width: 430px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.paragraph__about {
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  color: #4c4c4c;
+}
+
+.heading__about {
+  font-size: 3.5rem;
+  line-height: 4.55rem;
+  color: #545454;
+  font-weight: 400;
+}
